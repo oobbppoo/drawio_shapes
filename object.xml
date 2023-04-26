@@ -1,6 +1,6 @@
 <mxlibrary>[
   {
-    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;object label=\"\" board_id=\"xxxx\" BOARD_INFO=\"bd_type=&amp;quot;&amp;quot;\" id=\"2\"&gt;&lt;mxCell style=\"swimlane;strokeColor=#007FFF;startSize=0;fillColor=none;connectable=0;collapsible=0;allowArrows=0;dropTarget=1;points=[];movable=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"510\" height=\"340\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/object&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;object label=\"\" board_id=\"xxxx\" BOARD_INFO=\"bd_type=&amp;quot;&amp;quot;\" id=\"2\"&gt;&lt;mxCell style=\"swimlane;strokeColor=#007FFF;startSize=0;fillColor=none;connectable=0;collapsible=0;allowArrows=0;dropTarget=1;points=[];movable=1;snapToPoint=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"510\" height=\"340\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/object&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
     "w": 510,
     "h": 340,
     "aspect": "fixed",
