@@ -7,7 +7,7 @@
     "title": "board 单板"
   },
   {
-    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;object label=\"\" PORT_INFO=\"dir=&amp;quot;&amp;quot; port_type=&amp;quot;&amp;quot; port_name=&amp;quot;&amp;quot; module_id=&amp;quot;&amp;quot; module_type=&amp;quot;&amp;quot;\" id=\"2\"&gt;&lt;mxCell style=\"shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#f0a30a;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;comic=0;jiggle=1;strokeColor=#BD7000;startSize=0;fontColor=#ff0000;labelPosition=left;verticalLabelPosition=top;align=right;verticalAlign=bottom;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"-1.1368683772161603e-13\" width=\"20\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/object&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;object label=\"\" PORT_INFO=\"dir=&amp;quot;&amp;quot; port_type=&amp;quot;&amp;quot; port_name=&amp;quot;&amp;quot; module_id=&amp;quot;&amp;quot; module_type=&amp;quot;&amp;quot;\" id=\"2\"&gt;&lt;mxCell style=\"shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#f0a30a;resizable=0;rotatable=1;perimeter=centerPerimeter;snapToPoint=1;comic=0;jiggle=1;strokeColor=#BD7000;startSize=0;fontColor=#ff0000;labelPosition=left;verticalLabelPosition=top;align=right;verticalAlign=bottom;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"20\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/object&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
     "w": 20,
     "h": 20,
     "aspect": "fixed",
