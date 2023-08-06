@@ -1,0 +1,25 @@
+<qxGenerate>
+    <feature name="oa-work-mode">
+        <profile name="wdm_feature_oaWorkMode_pumpAlm">
+            <isSupport>
+                <![CDATA[
+                    function isSupport(curSpec, allSpec) {
+                        return curSpec.portType == "OA_OUT";
+                    }
+                ]]>
+            </isSupport>
+            <channelId>
+                <![CDATA[
+                    function getChannelId(curSpec, allSpec) {
+                        let channelIdList = [];
+                        // id从2开始，因为其他特性包已经包含了id为1的pump告警
+                        for (let i = 2; i <= parseInt(curSpec.pumpNum); i++) {
+                            channelIdList.push(String(i));
+                        }
+                        return channelIdList;
+                    }
+                ]]>
+            </channelId>
+        </profile>
+    </feature>
+</qxGenerate>

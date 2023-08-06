@@ -1,0 +1,47 @@
+<moduleMapping>
+    <module name="oa">
+        <isMappable>
+            <![CDATA[
+                function isMappable(curSpec, allSpec) {
+                    return curSpec.moduleType == "OA";
+                }
+            ]]>
+        </isMappable>
+        <port name="in-port">
+            <isMappable>
+                <![CDATA[
+                    function isMappable(curSpec, allSpec) {
+                        return curSpec.portType == "OA_IN";
+                    }
+                ]]>
+            </isMappable>
+        </port>
+        <port name="paout-port">
+            <isMappable>
+                <![CDATA[
+                    function isMappable(curSpec, allSpec) {
+                        return curSpec.portType == "TRUNK_PASS" && curSpec.portDir == "send";
+                    }
+                ]]>
+            </isMappable>
+        </port>
+        <port name="bain-port">
+            <isMappable>
+                <![CDATA[
+                    function isMappable(curSpec, allSpec) {
+                        return curSpec.portType == "TRUNK_PASS" && curSpec.portDir == "recv";
+                    }
+                ]]>
+            </isMappable>
+        </port>
+        <port name="out-port">
+            <isMappable>
+                <![CDATA[
+                    function isMappable(curSpec, allSpec) {
+                        return curSpec.portType == "OA_OUT";
+                    }
+                ]]>
+            </isMappable>
+        </port>
+    </module>
+</moduleMapping>
