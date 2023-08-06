@@ -1,0 +1,101 @@
+<mxfile host="app.diagrams.net" modified="2023-08-06T13:45:10.885Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="0yGj6Y5pI4ExyaYgBONY" version="21.6.5" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="812" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="hTwHSYJzOXqS7nYosONk-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hTwHSYJzOXqS7nYosONk-1" target="hTwHSYJzOXqS7nYosONk-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hTwHSYJzOXqS7nYosONk-1" value="开始生成QX配置文件" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="134" y="10" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hTwHSYJzOXqS7nYosONk-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hTwHSYJzOXqS7nYosONk-12" target="hTwHSYJzOXqS7nYosONk-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hTwHSYJzOXqS7nYosONk-12" value="生成固定配置" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="134" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hTwHSYJzOXqS7nYosONk-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hTwHSYJzOXqS7nYosONk-14" target="hTwHSYJzOXqS7nYosONk-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hTwHSYJzOXqS7nYosONk-14" value="开始生成模块特性配置" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="134" y="150" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hTwHSYJzOXqS7nYosONk-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hTwHSYJzOXqS7nYosONk-15" target="hTwHSYJzOXqS7nYosONk-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hTwHSYJzOXqS7nYosONk-15" value="遍历所有光口，对每一个光口，调用配置规则" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="134" y="220" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hTwHSYJzOXqS7nYosONk-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hTwHSYJzOXqS7nYosONk-16" target="hTwHSYJzOXqS7nYosONk-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hTwHSYJzOXqS7nYosONk-16" value="得到每一个光口通道支持的特性" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="134" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hTwHSYJzOXqS7nYosONk-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hTwHSYJzOXqS7nYosONk-17" target="hTwHSYJzOXqS7nYosONk-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hTwHSYJzOXqS7nYosONk-17" value="按模块遍历，对模块内的每一个光口，调用模块映射规则" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="134" y="360" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hTwHSYJzOXqS7nYosONk-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hTwHSYJzOXqS7nYosONk-18" target="hTwHSYJzOXqS7nYosONk-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hTwHSYJzOXqS7nYosONk-18" value="得到每个模块对应到yang模块" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="134" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hTwHSYJzOXqS7nYosONk-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hTwHSYJzOXqS7nYosONk-20" target="hTwHSYJzOXqS7nYosONk-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hTwHSYJzOXqS7nYosONk-24" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hTwHSYJzOXqS7nYosONk-23">
+          <mxGeometry x="-0.0357" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTwHSYJzOXqS7nYosONk-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hTwHSYJzOXqS7nYosONk-20" target="hTwHSYJzOXqS7nYosONk-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hTwHSYJzOXqS7nYosONk-34" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hTwHSYJzOXqS7nYosONk-33">
+          <mxGeometry x="0.3603" relative="1" as="geometry">
+            <mxPoint x="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTwHSYJzOXqS7nYosONk-20" value="是已有的yang模块?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="134" y="510" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hTwHSYJzOXqS7nYosONk-21" value="使用已有的yang模块" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="294" y="540" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hTwHSYJzOXqS7nYosONk-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hTwHSYJzOXqS7nYosONk-25" target="hTwHSYJzOXqS7nYosONk-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hTwHSYJzOXqS7nYosONk-25" value="生成新的yang模块，调用模块名生成函数生成模块名" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="134" y="640" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hTwHSYJzOXqS7nYosONk-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hTwHSYJzOXqS7nYosONk-37" target="hTwHSYJzOXqS7nYosONk-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hTwHSYJzOXqS7nYosONk-37" value="实际光口映射到yang模块光口" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="134" y="720" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hTwHSYJzOXqS7nYosONk-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hTwHSYJzOXqS7nYosONk-38" target="hTwHSYJzOXqS7nYosONk-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hTwHSYJzOXqS7nYosONk-38" value="模块特性配置生成完成" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="134" y="800" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hTwHSYJzOXqS7nYosONk-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hTwHSYJzOXqS7nYosONk-39" target="hTwHSYJzOXqS7nYosONk-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hTwHSYJzOXqS7nYosONk-39" value="MON口关联光口生成，找到同模块内与MON口有同一个源光口的光口" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="134" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hTwHSYJzOXqS7nYosONk-40" value="结束QX配置文件生成" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="134" y="970" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
