@@ -7,6 +7,14 @@
                 }
             ]]>
         </isMappable>
+        <nameGenerate>
+            <![CDATA[
+                function generateModuleName(curSpec, allSpec) {
+                    return "wdm_module_oa_" + curSpec.deviceType + "_" + curSpec.supportWave + "_" +
+                        curSpec.pumpNum + "pumb" + "_" + "ls" + curSpec.lsAbility;
+                }
+            ]]>
+        </nameGenerate>
         <port name="in-port">
             <isMappable>
                 <![CDATA[
